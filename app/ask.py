@@ -27,6 +27,7 @@ def ask(question: str) -> str:
 
     # TODO(第1回 演習): response.usage_metadata から
     #   入力トークン数と出力トークン数を表示してみよう（Copilotに頼んでよい）
+    print(response.usage_metadata)
 
     return response.text
 
